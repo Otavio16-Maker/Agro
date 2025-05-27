@@ -1,0 +1,167 @@
+body {
+    color:rgb(0, 255, 170);
+    background: rgba(255, 245, 245, 0.87);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+/* Importação de Fontes */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos Globais */
+h1, h2 {
+    color: #1a520f; /* Verde escuro para títulos */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.content {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.elements {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Permite que os ícones quebrem linha em telas menores */
+}
+
+.icon {
+    font-size: 5rem; /* Ícones grandes */
+    color: #4CAF50; /* Verde principal para ícones */
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+/* Header */
+header {
+    background-color: #1a520f; /* Verde escuro */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 2.8em;
+}
+
+/* Seção Campo */
+.campo {
+    background: linear-gradient(to bottom, #d4edda, #e6ffe6); /* Gradiente de verde claro */
+    color: #1B5E20; /* Verde escuro para o texto */
+    padding: 80px 0;
+}
+
+.campo h2 {
+    color: #1B5E20; /* Verde escuro */
+}
+
+.campo .icon {
+    color: #388E3C; /* Verde um pouco mais escuro para ícones do campo */
+}
+
+/* Seção Conexão */
+.conexao {
+    background-color: #FFFFFF; /* Branco puro */
+    color: #555; /* Cinza para o texto */
+    padding: 80px 0;
+    border-top: 2px dashed #4CAF50; /* Linha tracejada verde */
+    border-bottom: 2px dashed #4CAF50;
+}
+
+.conexao h2 {
+    color: #4CAF50; /* Verde principal */
+}
+
+.conexao .icon {
+    color: #66BB6A; /* Verde um pouco mais claro para ícones de conexão */
+}
+
+/* Seção Cidade */
+.cidade {
+    background: linear-gradient(to top, #e0f2f1, #ffffff); /* Gradiente de branco para um verde-azulado claro */
+    color: #333;
+    padding: 80px 0;
+}
+
+.cidade h2 {
+    color: #212121; /* Quase preto para contrastar com o fundo claro */
+}
+
+.cidade .icon {
+    color: #4CAF50; /* Verde principal */
+    /* Para o ícone de arranha-céus, como é texto, talvez um ajuste de fonte */
+    font-size: 4rem; /* Um pouco menor para caber */
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #1a520f; /* Verde escuro */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .content {
+        padding: 40px 15px;
+    }
+
+    .icon {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
